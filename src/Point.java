@@ -3,8 +3,8 @@ public class Point{
     private double y;
 
     public Point(double x, double y){
-        this.setX(x);
-        this.setY(y);
+        setX(x);
+        setY(y);
     }
     public double distanceTo(double A,double B){
         return Math.sqrt((Math.pow(this.x-A,2))+(Math.pow(this.y-B,2)));
